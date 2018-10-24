@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">양식장</string>
-    <string name="action_sign_in_short">Register</string>
-    <string name="email">Email</string>
+    <string name="action_sign_in_short">회원가입</string>
+    <string name="email">이메일</string>
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
-    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="auth_failed">로그인에 실패했습니다. 계정을 확인해 주세요.</string>
     <string name="change_email">Change Email</string>
     <string name="change_password">Change Password</string>
     <string name="send_password_reset_email">Send Password reset email</string>
@@ -11,11 +11,11 @@
     <string name="new_pass">New Password</string>
     <string name="title_activity_profile">Firebase</string>
     <string name="title_activity_login">Sign in</string>
-    <string name="hint_email">Email</string>
-    <string name="hint_password">Password</string>
+    <string name="hint_email">이메일</string>
+    <string name="hint_password">비밀번호</string>
     <string name="hint_name">Fullname</string>
-    <string name="btn_login">LOGIN</string>
-    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_link_to_register">회원 가입</string>
     <string name="btn_link_to_login">Already registered. Login Me!</string>
     <string name="title_activity_reset_password">ResetPasswordActivity</string>
     <string name="btn_forgot_password">Forgot your password?</string>
@@ -25,11 +25,13 @@
     <string name="btn_change">Change</string>
     <string name="btn_send">Send</string>
     <string name="btn_remove">Remove</string>
-    <string name="btn_sign_out">Sign Out</string>
+    <string name="btn_sign_out">로그아웃</string>
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_home">업로드</string>
     <string name="title_dashboard">내 양식</string>
     <string name="title_notifications">양식 검색</string>
+    <string name="logout">로그 아웃</string>
+
 </resources>

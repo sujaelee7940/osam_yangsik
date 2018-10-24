@@ -19,17 +19,17 @@ public class Main2Activity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
+                case R.id.navigation_upload:
                     Intent intent = new Intent(Main2Activity.this, MainActivity.class);
                     startActivity(intent);
                     finish();
                     return true;
-                case R.id.navigation_dashboard:
+                case R.id.navigation_formats:
                     Intent intent2 = new Intent(Main2Activity.this, UploadActivity.class);
                     startActivity(intent2);
                     finish();
                     return true;
-                case R.id.navigation_notifications:
+                case R.id.navigation_search:
                     mTextMessage.setText(R.string.title_notifications);
                     return true;
             }
